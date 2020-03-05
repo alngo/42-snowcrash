@@ -2,16 +2,16 @@ IP=10.11.200.99
 
 case $1 in
 	level01)
-		cat ./level00/flag | pbcopy 2>/dev/null
+		cat ./level00/flag 2>/dev/null | pbcopy 2>/dev/null
 		;;
 	level02)
-		cat ./level01/flag | pbcopy 2>/dev/null
+		cat ./level01/flag 2>/dev/null | pbcopy 2>/dev/null
 		;;
 	level03)
-		cat ./level02/flag | pbcopy 2>/dev/null
+		cat ./level02/flag 2>/dev/null | pbcopy 2>/dev/null
 		;;
 	level04)
-		cat ./level03/flag | pbcopy 2>/dev/null
+		cat ./level03/flag 2>/dev/null | pbcopy 2>/dev/null
 		;;
 esac
 

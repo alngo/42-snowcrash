@@ -22,7 +22,7 @@ command:
 result:
 	----r--r-- 1 flag00 flag00 15 Mar  5  2016 /usr/sbin/john
 
-> Read the file
+> Cat the file
 
 command:
 	cat /usr/sbin/john
@@ -36,7 +36,7 @@ command:
 result:
 	nottoohardhere
 
-*) shift 15
+*) ROT-15 = tr ‘p-za-oP-ZA-O’ ‘a-zA-Z’
 ```
 
 ### Sources

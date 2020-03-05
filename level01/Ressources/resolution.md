@@ -14,9 +14,8 @@ result:
 > Interpret this user line as follow
 > <name>:<passwd>:<id>:<group_id>:<full_name>:<home_directory>:<login_shell>
 
-> The password seems compromised
-
-
+> The password seems compromised: 42hDRfypTqqnw
+> Decrypt password
 ```
 
 ### Sources
